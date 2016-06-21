@@ -5,7 +5,7 @@ var filename = "hello.txt";
 fs.readFile(filename, function(err, buffer) {
   if(err) {
     console.error(err.stack);
-    return
+    return;
   }
   console.log(buffer.toString().toUpperCase());
 });

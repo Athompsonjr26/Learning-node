@@ -7,5 +7,5 @@ fs.writeFile(filename, content, function(err) {
     console.log(err.stack);
     return;
   }
-  // console.log(filename);
+  console.log(filename);
 });
